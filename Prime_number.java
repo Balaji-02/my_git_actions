@@ -1,7 +1,5 @@
 import java.util.Scanner;
-
 public class PrimeExample3 {
-
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
     System.out.print("Enter a number : ");
@@ -12,7 +10,6 @@ public class PrimeExample3 {
       System.out.println(n + " is not a prime number");
     }
   }
-
   public static boolean isPrime(int n) {
     if (n <= 1) {
       return false;
